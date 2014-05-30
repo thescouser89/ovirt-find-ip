@@ -6,3 +6,15 @@ You will need to provide the username, password, ovirt truststore,
 rhev/ovirt server api link, and the cluster name of the RHEV/OVirt vm.
 
 The OVirt-Java SDK is being used in this case.
+
+
+## How to build?
+```bash
+mvn clean install
+```
+
+## How to run?
+```bash
+# print usage
+java -jar target/ovirt-find-ip-1.0.0.jar
+```
